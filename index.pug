@@ -1,0 +1,22 @@
+//include ../mixin/_helpers
+doctype html 
+//block var 
+html(lang='ru')
+  head 
+    meta(charset='utf-8')
+    meta(name='theme-color' content='#ffffff')
+    meta(name='description' content='Заселение, поиск номеров Toxin')
+    link(rel='icon' href='../src/favicon/favicon.ico' type='image/x-icon')  
+    link(rel='stylesheet' href='../src/scss/dist/style.css')
+    link(rel='preload' href='../fonts/montserrat-v18-latin_cyrillic-regular.woff2' as='font' type='font/woff2' crossorigin)
+    title Поиск номеров Toxin
+  body
+    header.page-header
+      nav
+        div
+          each value, index in {'О нас ': 'index', 'Услуги ⌵': 'index'}
+            a.header-menu(href='../dist/' + value + '.html')= index
+
+                    
+
+  
