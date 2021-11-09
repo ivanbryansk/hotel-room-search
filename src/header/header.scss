@@ -1,0 +1,21 @@
+.header-navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background: #FFFFFF;
+}
+.header-text{
+  height: 70px;
+  padding: 20px;
+  align-items: center;
+  font-size: 14px;
+  color: rgba(31, 32, 65, 0.5);
+  font-weight: normal;
+  text-decoration: none;
+}
+
+.logo{
+//  padding: 140px;
+height: 40px;
+width: 106px;
+}

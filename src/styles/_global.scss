@@ -1,0 +1,23 @@
+$primaryColor: darkcyan;
+$secondaryColor: darkslategray;
+
+html{
+  font-family: Montserrat, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+h1 {
+  color: $primaryColor;
+}
+
+.container{
+  &__subtitle{
+  color: $secondaryColor;
+  display: block;
+  height: 140px;
+  background: url('../images/bg-page.png');
+  display: flex;
+  justify-content: left;
+  }
+}
