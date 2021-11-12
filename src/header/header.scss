@@ -1,21 +1,27 @@
 .header-navigation {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  background: #FFFFFF;
+display: flex;
+flex-direction: row;
+padding: 0;
+justify-content: center;
+background: #FFFFFF;
 }
-.header-text{
-  height: 70px;
-  padding: 20px;
-  align-items: center;
-  font-size: 14px;
-  color: rgba(31, 32, 65, 0.5);
-  font-weight: normal;
-  text-decoration: none;
+.menu-list{
+list-style: none;
+height: 70px;
+padding: 20px;
+align-items: center;
+}
+
+.menu-text{
+text-decoration: none;
+font-size: 14px;
+color: rgba(31, 32, 65, 0.5);
+font-weight: normal;
 }
 
 .logo{
 //  padding: 140px;
 height: 40px;
 width: 106px;
+margin-right: 30px;
 }

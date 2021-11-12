@@ -21,7 +21,7 @@ module.exports = {
       filename: '[name].[contenthash].css'
     }),
     new HtmlWebpackPlugin({
-      favicon: './src/favicons/favicon.ico',
+      //favicon: './src/favicons/favicon.ico',
       template: './src/index.pug'
     }),
 
@@ -66,7 +66,7 @@ module.exports = {
       {
         test: /\.pug$/,
         loader: 'pug-loader',
-        exclude: /(node_modules|bower_components)/,
+        exclude: /(node_modules|bower_components)/
       },
       {
         test: /\.m?js$/,

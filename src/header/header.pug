@@ -1,19 +1,21 @@
+mixin menu-header(name, reference)
+  li.menu-list
+    a.menu-text(href= reference + '.html')= name
+
 header
   //nav.header-navigation
   nav
-    img(href= require('./header/logo-Toxin.svg'))
-    ul
-    mixin menu-header(name, reference)
-      li
-        a.header-text(href= reference + '.html')= name
-    
-    +menu-header('О нас ', 'index')
-    +menu-header('О нас ', 'index')
-    +menu-header('О нас ', 'index')
-    +menu-header('О нас ', 'index')
-    +menu-header('О нас ', 'index')
-    +menu-header('О нас ', 'index')
-    +menu-header('О нас ', 'index')
-    +menu-header('О нас ', 'index')
+    //img(href= require('./header/logo-Toxin.svg'))
+    ul.header-navigation 
+      li.menu-list
+        //img.logo(src=require('./header/logo-Toxin.svg') alt= 'логотип')
+      
+      +menu-header('О нас ', 'index')
+      +menu-header('Услуги ', 'index')
+      +menu-header('Вакансии', 'index')
+      +menu-header('Новости', 'index')
+      +menu-header('Соглашения', 'index')
+      +menu-header('Войти ', 'index')
+      +menu-header('Зарегистрироваться ', 'index')
 
 
